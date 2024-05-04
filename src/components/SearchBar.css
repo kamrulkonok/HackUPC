@@ -1,0 +1,69 @@
+/* SearchBar.css */
+div.search-bar {
+    background: hsl(0, 0%, 100%); 
+    padding: 50px;
+    border-radius: 10px;
+    margin: 50px auto; 
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%; 
+}
+
+.form-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.input-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 150%;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF; 
+    border: 1px solid #DDDDDD;
+    border-radius: 22px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.input-group .form-control {
+    border: none;
+    background: transparent;
+    color: #333;
+    width: 100%;
+    font-size: 16px;
+}
+
+.input-group .icon {
+    color: #555;
+    margin-right: 10px;
+}
+
+.date-picker input {
+    cursor: pointer; 
+}
+
+.btn-search {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%; 
+}
+
+.btn-search:hover {
+    background-color: #0056b3; 
+}

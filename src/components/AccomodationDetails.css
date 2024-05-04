@@ -1,0 +1,47 @@
+/* AccommodationDetails.css */
+.accommodation-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.accommodation-details-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.accommodation-details-form label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.accommodation-details-form select,
+.accommodation-details-form input[type="text"],
+.accommodation-details-form input[type="date"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.accommodation-details-form button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.accommodation-details-form button:hover {
+  background-color: #0056b3;
+}
